@@ -5,7 +5,7 @@ Ruby HTTP parser
 Add this line to your application's Gemfile:
 
 ```
-gem 'parse-http', '1.0.0', require: 'parse-http'
+gem 'parse-http', '1.0.1', require: 'parse-http'
 ```
 
 ...followed with:
