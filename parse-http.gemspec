@@ -1,11 +1,11 @@
 require_relative 'lib/http-parser/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'http-parser'
+  spec.name          = 'parse-http'
   spec.version       =  HttpParser::VERSION
   spec.authors       = ['Adem Dinarevic']
   spec.email         = ['ademdinarevic@gmail.com']
-  spec.homepage      = 'https://github.com/ademdc/http-parser'
+  spec.homepage      = 'https://github.com/ademdc/parse-http'
   spec.license       = 'MIT'
   spec.summary       = "Ruby client for Etsy API"
   spec.description   = "Ruby client for Etsy API"
