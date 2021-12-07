@@ -1,11 +1,11 @@
-# http-parser
+# parse-http
 Ruby HTTP parser
 
 ## Installation
 Add this line to your application's Gemfile:
 
 ```
-gem 'http-parser', '1.0.0', require: 'http-parser'
+gem 'parse-http', '1.0.0', require: 'parse-http'
 ```
 
 ...followed with:
@@ -15,7 +15,7 @@ bundle install
 
 Or install it with:
 ```
-gem install http-parser
+gem install parse-http
 ```
 
 ## Usage
