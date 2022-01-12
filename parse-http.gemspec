@@ -7,16 +7,19 @@ Gem::Specification.new do |spec|
   spec.email         = ['ademdinarevic@gmail.com']
   spec.homepage      = 'https://github.com/ademdc/parse-http'
   spec.license       = 'MIT'
-  spec.summary       = "Ruby client for Etsy API"
-  spec.description   = "Ruby client for Etsy API"
+  spec.summary       = "HTTP parser for Ruby"
+  spec.description   = "HTTP parser for Ruby"
   spec.require_paths = ['lib']
+  spec.bindir        = ['bin']
+
   
   spec.files         =  %w[
     lib/http-parser.rb
     lib/http-parser/version.rb
   ]
 
-  spec.required_ruby_version = '>= 2.5.8'
+  spec.required_ruby_version = '>= 2.6.0'
   spec.add_development_dependency 'rspec', '~> 3.0'
+  spec.add_development_dependency 'rake', '~> 13.0.3'
 
 end
